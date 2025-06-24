@@ -1,4 +1,7 @@
-## Understanding How Optimizers Affect the Stability Gap
+## Understanding How Optimizers Affect the Stability Gap 
+
+The following work was conducted as part of the Research Project course of 2025 at TU Delft.
+The associated paper can be accessed via the [TU Delft public repository](https://repository.tudelft.nl/record/uuid:40d6d702-41c2-4d51-b018-ea9ed3dd12f6).
 
 This code base modifies the original continual learning environment to investigate the impact of momentum and different optimizers on the stability gap shape in continual learning processes.
 We decided to train and evaluate our model on the MNIST dataset, applying rotations to generate new tasks and, thus, conduct our analysis over a domain-incremental learning setup.
